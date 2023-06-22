@@ -1,0 +1,54 @@
+.container {
+  width: 50%;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  display: inline-block;
+}
+.regForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 1.5em;
+}
+
+.error {
+  color: rgb(202, 62, 62);
+  font-weight: bold;
+}
+
+.regForm > input {
+  height: 3rem;
+  width: 50%;
+  font-size: 30px;
+  border-radius: 10px;
+}
+
+.regForm > button {
+  width: 50%;
+  border-radius: 10px;
+  font-size: 30px;
+  cursor: pointer;
+  background-color: rgb(241, 164, 68);
+}
+.regForm > button:hover {
+  transition: 0.5s;
+  transform: scale(100%);
+  background-color: greenyellow;
+}
+
+.regForm > button:disabled {
+  background-color: gray;
+}
+
+.regForm > button:focus {
+  background-color: red;
+}
+
+.regForm > hr {
+  width: 60px;
+  border: 1px solid lightblue;
+  margin: 0;
+}
